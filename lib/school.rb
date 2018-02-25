@@ -2,9 +2,10 @@
 class School
   def initialize(school_name)
     @school_name = school_name
+    roster = []
   end
-  roster = []
+
   def roster
-    @roster = roster
+    @roster
   end
 end
