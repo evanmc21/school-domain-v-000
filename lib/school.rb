@@ -23,6 +23,7 @@ class School
     roster.each do |grade, student_name|
       name_sorted[grade] = student_name.sort
     end
+    name_sorted
   end
 
 end
